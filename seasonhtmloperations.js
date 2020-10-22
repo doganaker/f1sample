@@ -1,4 +1,4 @@
-import {f1seasonmanager} from './f1.js';
+import {f1seasonmanager} from './season.js';
 
 f1seasonmanager.getseasons(100).then((data) => {
 
