@@ -1,4 +1,4 @@
-import {f1manager} from './f1detail.js'
+import {f1manager} from './seasondetail.js'
 
 var secilenid = localStorage.getItem('season');
 
