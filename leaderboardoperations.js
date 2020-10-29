@@ -1,6 +1,6 @@
 import {leadermanager} from "./leaderboard.js";
 
-leadermanager.getleader().then((data) => {
+leadermanager.getleader(10).then((data) => {
     appendmanager.appendtable(data.StandingsTable.StandingsLists[0].DriverStandings)
 })
 
