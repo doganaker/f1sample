@@ -1,10 +1,10 @@
-const url = "http://ergast.com/api/f1/2019/driverStandings.json?limit=";
+const url = "http://ergast.com/api/f1/2019/driverStandings.json";
 
  export const leadermanager = {
 
-    getleader : async (limit) => {
+    getleader : async () => {
 
-        let result = await fetch(url + limit)
+        let result = await fetch(url)
         .then((res) => res.json())
         .then((data) => data.MRData)
 
