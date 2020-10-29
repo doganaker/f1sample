@@ -1,4 +1,4 @@
-const url = "http://ergast.com/api/f1/2019/driverStandings.json";
+const url = "https://ergast.com/api/f1/2019/driverStandings.json";
 
  export const leadermanager = {
 
