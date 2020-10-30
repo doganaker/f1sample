@@ -21,7 +21,7 @@ const appendmanager = {
 
     appendtable: (data) => {
 
-        // $('tbody tr').remove();
+        $('tbody tr').remove();
         data.forEach(element => {
 
             $('tbody').append(
@@ -37,5 +37,11 @@ const appendmanager = {
     }
 }
 
+//Yıl select
+$('select').change(function(){
 
-
+    let selectedyearid = $('#yearsselect').val();
+    f1circuitsmanager.getcirciuts(selectedyearid).then((data)=>{
+        appendmanager.appendtable(data.CircuitTable.Circuits);
+    })
+})
