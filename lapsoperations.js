@@ -33,7 +33,7 @@ let tour = 1;
 
 f1lapsmanager.getlaps(firstyear, firstround, tour).then((data) => {
 
-    appendmanager.appendtable(data.RaceTable.Races[0].Laps);
+    appendmanager.appendtable(data.RaceTable.Races[0].Laps[0].Timings);
 })
 
 const appendmanager = {
@@ -46,9 +46,9 @@ const appendmanager = {
 
             $('tbody').append(
                 `<tr>
-                <td>` + element.Timings.driverId + `</td >
-                <td>` + element.Timings.position + `</td>
-                <td>` + element.Timings.time + `</td>
+                    <td>` + element.driverId + `</td >
+                    <td>` + element.position + `</td>
+                    <td>` + element.time + `</td>
                 </tr>`
             )
         });
@@ -63,7 +63,7 @@ $('select').change(function () {
     let selectedroundid = $('#roundsselect').val();
     let selectedtourid = $('#tourselect').val();
     f1lapsmanager.getlaps(selectedyearid, selectedroundid, selectedtourid).then((data) => {
-        appendmanager.appendtable(data.RaceTable.Races[0].Laps);
+        appendmanager.appendtable(data.RaceTable.Races[0].Laps[0].Timings);
     })
 })
 
