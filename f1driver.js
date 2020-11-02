@@ -1,4 +1,4 @@
-const url = "http://ergast.com/api/f1/drivers.json";
+const url = "https://ergast.com/api/f1/drivers.json";
 
 export const drivermanager = {
 
