@@ -15,7 +15,7 @@ const appendmanager = {
             $('tbody').append(`
                 <tr>
                     <td>` + element.position + `</td>
-                    <td id="gotopage"><a href="`+ element.Driver.givenName.toLowerCase() + element.Driver.familyName.toLowerCase() +`.html" class="text-decoration-none" target="_blank">` + element.Driver.givenName + ` ` + element.Driver.familyName + `</a></td>
+                    <td>` + element.Driver.givenName + ` ` + element.Driver.familyName + `</td>
                     <td>` + element.Driver.nationality + `</td>
                     <td>` + element.Driver.permanentNumber + `</td>
                     <td>` + element.points + `</td>
@@ -26,3 +26,5 @@ const appendmanager = {
         })
     }
 }
+
+

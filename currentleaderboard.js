@@ -12,3 +12,6 @@ const url = "https://ergast.com/api/f1/2020/driverStandings.json";
         return result;
     }
 }
+
+
+
