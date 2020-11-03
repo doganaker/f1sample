@@ -1,4 +1,4 @@
-const url = 'https://ergast.com/api/f1/';
+const url = 'http://ergast.com/api/f1/';
 
 export const f1manager = {
 
