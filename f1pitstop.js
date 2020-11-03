@@ -1,6 +1,6 @@
 import { f1qualifyingmanager } from './f1qualifying.js'
 
-const url = "http://ergast.com/api/f1/";
+const url = "https://ergast.com/api/f1/";
 
 export const f1pitstopgmanager = {
 
