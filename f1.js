@@ -1,4 +1,4 @@
-const url = "https://ergast.com/api/f1/constructors.json?limit=";
+const url = "http://ergast.com/api/f1/constructors.json?limit=";
 
 export const consmanager = {
 
