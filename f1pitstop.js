@@ -1,5 +1,3 @@
-import { f1qualifyingmanager } from './f1qualifying.js'
-
 const url = "https://ergast.com/api/f1/";
 
 export const f1pitstopgmanager = {
@@ -20,7 +18,7 @@ export const f1pitstopgmanager = {
         var fullyear = date.getFullYear();
         let years = [];
 
-        for (let i = 1994; i <= fullyear; i++) {
+        for (let i = 2011; i <= fullyear; i++) {
             years.push(i);
         }
 
@@ -30,10 +28,11 @@ export const f1pitstopgmanager = {
 
     getrounds: async (year, limit) => {
 
-        let rounds = await f1qualifyingmanager.getqualifying(year, 1, limit)
-            .then((res) => {
-
-                let totalrounds = res.total;
+        let rounds = await fetch(url + year + '.json?limit=') 
+        .then((res) => res.json())
+        .then((data) => {
+                  
+                let totalrounds = data.MRData.total;
                 return totalrounds;
             });
 

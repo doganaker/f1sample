@@ -9,7 +9,7 @@ for (let i = 0; i < years.length; i++) {
 }
 
 
-f1qualifyingmanager.getrounds(1994)
+f1pitstopgmanager.getrounds(2011)
     .then((rounds) => {
 
         for (let i = 0; i < rounds.length; i++) {
@@ -41,19 +41,16 @@ const appendmanager = {
         $('#racename').append(
             '<th>' + data?.raceName + '</th>'
         )
-
+      
         data.PitStops.forEach(element => {
 
             $('tbody').append(
                 `<tr>
-                    <td>` + element.number + `</td>
-                    <td>` + element.Driver?.driverId + `</td>
-                    <td>` + element.Driver?.givenName + ` ` + element.Driver?.familyName + `</td>
-                    <td>` + element.Constructor?.name + `</td>
-                    <td>` + element.position + `</td>
-                    <td>` + element.Q1 + `</td>
-                    <td>` + element.Q2 + `</td>
-                    <td>` + element.Q3 + `</td>
+                    <td>` + element.driverId + `</td>
+                    <td>` + element.lap+ `</td>
+                    <td>` + element.stop+ `</td>
+                    <td>` + element.time + `</td>
+                    <td>` + element.duration + `</td>
                 </tr>`
             )
         });
@@ -65,7 +62,7 @@ $('#yearsselect').change(function () {
 
     let selectedyearid = $('#yearsselect').val();
 
-    f1qualifyingmanager.getrounds(selectedyearid)
+    f1pitstopgmanager.getrounds(selectedyearid)
         .then((rounds) => {
 
             for (let i = 0; i < rounds.length; i++) {
@@ -90,7 +87,7 @@ $('select').change(function () {
     let selectedyearid = $('#yearsselect').val();
     let selectedroundid = $('#roundsselect').val();
 
-    f1qualifyingmanager.getqualifying(selectedyearid, selectedroundid, limit)
+    f1pitstopgmanager.getpitstop(selectedyearid, selectedroundid, limit)
         .then((data) => {
 
             appendmanager.appendtable(data.RaceTable.Races[0]);
