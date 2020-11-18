@@ -17,5 +17,20 @@ namespace F1SampleApp.Controllers
         {
             return View();
         }
+
+        public IActionResult ValtteriBottas()
+        {
+            return View();
+        }
+
+        public IActionResult MaxVerstappen()
+        {
+            return View();
+        }
+
+        public IActionResult DanielRicciardo()
+        {
+            return View();
+        }
     }
 }

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dogan\\OneDrive\\Masaüstü\\BilgeAdam Boost (Doğan)\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj": {}
+    "C:\\Users\\Hp\\Desktop\\f1sample\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dogan\\OneDrive\\Masaüstü\\BilgeAdam Boost (Doğan)\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj": {
+    "C:\\Users\\Hp\\Desktop\\f1sample\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\BilgeAdam Boost (Doğan)\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\f1sample\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
         "projectName": "F1SampleApp",
-        "projectPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\BilgeAdam Boost (Doğan)\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
-        "packagesPath": "C:\\Users\\dogan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\BilgeAdam Boost (Doğan)\\F1SampleApp\\F1SampleApp\\obj\\",
+        "projectPath": "C:\\Users\\Hp\\Desktop\\f1sample\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\Desktop\\f1sample\\F1SampleApp\\F1SampleApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
