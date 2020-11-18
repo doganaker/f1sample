@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "CurrentLeaderboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="module" src="/js/CLBhtmloperations.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
+
+<br>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="page-header">
+            <h1>2020's (Current) Leaderboard</h1>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <table class="table table-hover" id="lb">
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Pilot</th>
+                    <th>Nationality</th>
+                    <th>Number</th>
+                    <th>Points</th>
+                    <th>Wins</th>
+                    <th>Team</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+
