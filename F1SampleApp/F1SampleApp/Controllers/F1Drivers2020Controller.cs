@@ -12,5 +12,10 @@ namespace F1SampleApp.Controllers
         {
             return View();
         }
+
+        public IActionResult LewisHamilton()
+        {
+            return View();
+        }
     }
 }

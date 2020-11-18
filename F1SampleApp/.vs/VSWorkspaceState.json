@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\F1SampleApp",
+    "\\F1SampleApp\\Controllers",
+    "\\F1SampleApp\\Views",
+    "\\F1SampleApp\\Views\\F1Drivers2020",
+    "\\F1SampleApp\\Views\\Home",
+    "\\F1SampleApp\\Views\\PitStops",
+    "\\F1SampleApp\\Views\\Shared"
+  ],
+  "SelectedNode": "\\F1SampleApp\\Controllers\\F1Drivers2020Controller.cs",
+  "PreviewInSolutionExplorer": false
+}
