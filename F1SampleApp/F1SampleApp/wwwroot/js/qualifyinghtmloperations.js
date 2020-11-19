@@ -1,4 +1,4 @@
-import { f1qualifyingmanager } from './f1qualifying.js'
+import { f1qualifyingmanager } from '/js/f1qualifying.js'
 
 
 let years = f1qualifyingmanager.getyears();
@@ -56,6 +56,10 @@ const appendmanager = {
                     <td>` + element.Q3 + `</td>
                 </tr>`
             )
+        });
+
+        $(document).ready(function () {
+            $('#lb').DataTable();
         });
     }
 }

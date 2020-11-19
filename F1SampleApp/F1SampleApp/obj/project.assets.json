@@ -5993,19 +5993,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dogan\\.nuget\\packages\\": {}
+    "C:\\Users\\Hande\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\F1Proje\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
+      "projectUniqueName": "C:\\Users\\Hande\\Desktop\\F1MVCProject\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
       "projectName": "F1SampleApp",
-      "projectPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\F1Proje\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
-      "packagesPath": "C:\\Users\\dogan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\F1Proje\\F1SampleApp\\F1SampleApp\\obj\\",
+      "projectPath": "C:\\Users\\Hande\\Desktop\\F1MVCProject\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
+      "packagesPath": "C:\\Users\\Hande\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hande\\Desktop\\F1MVCProject\\F1SampleApp\\F1SampleApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\dogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hande\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

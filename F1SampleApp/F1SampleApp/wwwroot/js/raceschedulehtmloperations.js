@@ -1,4 +1,4 @@
-import { f1raceschedulemanager } from './f1raceschedule.js'
+import { f1raceschedulemanager } from '/js/f1raceschedule.js'
 
 
 let years = f1raceschedulemanager.getyears();
@@ -37,6 +37,10 @@ const appendmanager = {
                
                 </tr>`
             )
+        });
+
+        $(document).ready(function () {
+            $('#lb').DataTable();
         });
     }
 }
