@@ -1,4 +1,4 @@
-import { f1circuitsmanager } from './circuits.js';
+import { f1circuitsmanager } from '/js/circuits.js';
 
 
 //Yılları getir
@@ -33,6 +33,10 @@ const appendmanager = {
                     <td><a href=` + element.url + `target = '_blank'>` + element.url + `</a></td>
                 </tr>`
             )
+        });
+
+        $(document).ready(function () {
+            $('#lb').DataTable();
         });
     }
 }

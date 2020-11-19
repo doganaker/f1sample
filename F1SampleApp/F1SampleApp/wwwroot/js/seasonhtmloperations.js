@@ -1,4 +1,4 @@
-import {f1seasonmanager} from './season.js';
+import {f1seasonmanager} from '/js/season.js';
 
 f1seasonmanager.getseasons(100).then((data) => {
 
@@ -18,6 +18,10 @@ const appendmanager = {
                     <td><a href=` + element.url +`target = '_blank'>`+ element.url +`</a></td>
                 </tr>`
             )
+        });
+
+        $(document).ready(function () {
+            $('#lb').DataTable();
         });
     }
 }

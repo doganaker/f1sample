@@ -1,4 +1,4 @@
-import { f1lapsmanager } from './laps.js'
+import { f1lapsmanager } from '/js/laps.js'
 
 
 //Yılları getir
@@ -51,6 +51,10 @@ const appendmanager = {
                     <td>` + element.time + `</td>
                 </tr>`
             )
+        });
+
+        $(document).ready(function () {
+            $('#lb').DataTable();
         });
     }
 }

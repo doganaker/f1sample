@@ -53,6 +53,9 @@ const appendmanager = {
                     
             )
         });
+        $(document).ready(function () {
+            $('#lb').DataTable();
+        });
     }
 }
 
