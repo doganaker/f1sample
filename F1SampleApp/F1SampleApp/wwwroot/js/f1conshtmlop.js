@@ -1,4 +1,4 @@
-import {consmanager} from './f1.js'
+import {consmanager} from '/js/f1.js'
 
 consmanager.getraces(100).then((data) => {
     appendmanager.appendtable(data.ConstructorTable.Constructors);
@@ -19,5 +19,8 @@ const appendmanager = {
                     </tr>`
                 )
             });
+        $(document).ready(function () {
+            $('#lb').DataTable();
+        });
     }
 }

@@ -5993,19 +5993,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\berkc\\.nuget\\packages\\": {}
+    "C:\\Users\\Hp\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berkc\\Desktop\\F1\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
+      "projectUniqueName": "C:\\Users\\Hp\\Desktop\\f1sample\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
       "projectName": "F1SampleApp",
-      "projectPath": "C:\\Users\\berkc\\Desktop\\F1\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
-      "packagesPath": "C:\\Users\\berkc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berkc\\Desktop\\F1\\F1SampleApp\\F1SampleApp\\obj\\",
+      "projectPath": "C:\\Users\\Hp\\Desktop\\f1sample\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
+      "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hp\\Desktop\\f1sample\\F1SampleApp\\F1SampleApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\berkc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
