@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berkc\\Desktop\\F1\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj": {}
+    "C:\\Users\\dogan\\OneDrive\\Masaüstü\\F1Proje\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berkc\\Desktop\\F1\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj": {
+    "C:\\Users\\dogan\\OneDrive\\Masaüstü\\F1Proje\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berkc\\Desktop\\F1\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
+        "projectUniqueName": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\F1Proje\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
         "projectName": "F1SampleApp",
-        "projectPath": "C:\\Users\\berkc\\Desktop\\F1\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
-        "packagesPath": "C:\\Users\\berkc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berkc\\Desktop\\F1\\F1SampleApp\\F1SampleApp\\obj\\",
+        "projectPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\F1Proje\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
+        "packagesPath": "C:\\Users\\dogan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\F1Proje\\F1SampleApp\\F1SampleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\berkc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

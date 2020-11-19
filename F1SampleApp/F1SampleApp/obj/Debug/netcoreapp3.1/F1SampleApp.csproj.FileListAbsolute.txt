@@ -501,3 +501,9 @@ C:\Users\berkc\Desktop\F1\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\F1Samp
 C:\Users\berkc\Desktop\F1\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Circuits\Index.cshtml.g.cs
 C:\Users\berkc\Desktop\F1\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Laps\Index.cshtml.g.cs
 C:\Users\berkc\Desktop\F1\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Standings\Index.cshtml.g.cs
+C:\Users\dogan\OneDrive\Masaüstü\F1Proje\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Circuits\Index.cshtml.g.cs
+C:\Users\dogan\OneDrive\Masaüstü\F1Proje\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Laps\Index.cshtml.g.cs
+C:\Users\dogan\OneDrive\Masaüstü\F1Proje\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Qualifying\Index.cshtml.g.cs
+C:\Users\dogan\OneDrive\Masaüstü\F1Proje\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\RaceSchedule\Index.cshtml.g.cs
+C:\Users\dogan\OneDrive\Masaüstü\F1Proje\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Standings\Index.cshtml.g.cs
+C:\Users\dogan\OneDrive\Masaüstü\F1Proje\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Driver\Index.cshtml.g.cs

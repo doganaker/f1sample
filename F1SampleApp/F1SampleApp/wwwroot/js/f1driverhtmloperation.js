@@ -20,6 +20,9 @@ const appendmanager = {
                     <td><a href='` + element.url + `' target = '_blank'>` + element.url +`</a></td>`
             )
         });
+        $(document).ready(function () {
+            $('#lb').DataTable();
+        });
     }
 }
 
