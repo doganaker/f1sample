@@ -13,6 +13,11 @@ namespace F1SampleApp.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            return View();
+        }
+
         public IActionResult CurrentLeaderboard()
         {
             return View();
