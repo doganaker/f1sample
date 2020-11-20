@@ -24,7 +24,7 @@ export const f1finishmanager = {
         var date = new Date();
         var fullyear = date.getFullYear();
         let years = [];
-        years.push('Yıl Seçiniz');
+        years.push('Select Year');
         for (let i = 1950; i <= fullyear; i++) {
             
             years.push(i);

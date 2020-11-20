@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="module" src="/js/finishhtmloperations.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
+<br>
+<br>
+<div class="container">
+    <div class="page-header">
+        <h1>Finishing Status</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-6" style="display: flex;">
+            <label for="" class="px-2">Year:</label>
+            <select class="form-control" name="" id="yearsselect">
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <table class="table table-hover" id="lb">
+            <thead>
+                <tr>
+                    <th scope="col">Status Id</th>
+                    <th scope="col">Number Of Finish Status</th>
+                    <th scope="col">Status Name</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+

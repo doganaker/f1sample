@@ -1,4 +1,4 @@
-import { f1finishmanager } from './finishing.js';
+import { f1finishmanager } from '/js/finishing.js';
 
 
 //Yılları getir
@@ -31,6 +31,9 @@ const appendmanager = {
                     <td>` + element.status + `</td>
                 </tr>`
             )
+        });
+        $(document).ready(function () {
+            $('#lb').DataTable();
         });
     }
 }

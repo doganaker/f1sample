@@ -1,4 +1,4 @@
-import {f1manager} from './seasondetail.js'
+import {f1manager} from '/js/seasondetail.js'
 
 var secilenid = localStorage.getItem('season');
 
@@ -10,6 +10,7 @@ f1manager.getrounds(secilenid).then((rounds) => {
         `)
     }
 });
+
 
 
 let firstround = 1;
@@ -41,6 +42,9 @@ const appendmanager = {
             <td><a href='`+ element.Constructor?.url + `' target='_blank'>` + element.Constructor?.url + `</a></td>
             </tr>`
             )
+        });
+        $(document).ready(function () {
+            $('#lb').DataTable();
         });
     }
 }

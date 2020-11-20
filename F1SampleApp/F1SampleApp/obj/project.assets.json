@@ -5993,23 +5993,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hp\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\dogan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\Desktop\\f1sample\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
+      "projectUniqueName": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\f1sample\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
       "projectName": "F1SampleApp",
-      "projectPath": "C:\\Users\\Hp\\Desktop\\f1sample\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
-      "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\Desktop\\f1sample\\F1SampleApp\\F1SampleApp\\obj\\",
+      "projectPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\f1sample\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
+      "packagesPath": "C:\\Users\\dogan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\f1sample\\F1SampleApp\\F1SampleApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6021,6 +6017,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -6032,6 +6029,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
@@ -6056,7 +6054,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

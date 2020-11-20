@@ -29,7 +29,7 @@ const appendmanager = {
 $(document).on("click", "td", function () {
     var seasonid = $(this).attr("id");
     localStorage.setItem("season",seasonid);
-    window.open('seasondetail.html','_blank');
+    window.location.href = '/Season/SeasonDetail';
 })
  
 

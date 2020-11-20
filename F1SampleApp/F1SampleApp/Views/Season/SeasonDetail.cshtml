@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "SeasonDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="module" src="/js/seasondetailop.js "></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
+
+<div class="container">
+    <div class="page-header">
+        <h1>Season Detail</h1>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-lg-3" style="display:flex;">
+                <label class="px-2">Round:</label>
+                <select name="" class="form-control" id="roundsselect">
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <table class="table table-hover" id="lb">
+                <thead>
+                    <tr>
+                        <th scope="col" value="position">Position</th>
+                        <th scope="col" value="Driver.givenName">Name</th>
+                        <th scope="col" value="Constructor.nationality">Nationality</th>
+                        <th scope="col" value="FastestLap.Time.time">Fastest Time</th>
+                        <th scope="col" value="FastestLap.AverageSpeed.speed">Fastest Speed</th>
+                        <th scope="col" value="Constructor.url">Team Url</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
