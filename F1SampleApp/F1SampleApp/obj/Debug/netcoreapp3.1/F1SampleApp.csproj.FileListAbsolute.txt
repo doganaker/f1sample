@@ -669,3 +669,7 @@ C:\Users\dogan\OneDrive\Masaüstü\f1sample\F1SampleApp\F1SampleApp\obj\Debug\ne
 C:\Users\dogan\OneDrive\Masaüstü\f1sample\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Season\SeasonDetail.cshtml.g.cs
 C:\Users\dogan\OneDrive\Masaüstü\f1sample\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\FinishingStatus\Index.cshtml.g.cs
 C:\Users\dogan\OneDrive\Masaüstü\f1sample\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Hp\Desktop\f1sample\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\FinishingStatus\Index.cshtml.g.cs
+C:\Users\Hp\Desktop\f1sample\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Hp\Desktop\f1sample\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Season\Index.cshtml.g.cs
+C:\Users\Hp\Desktop\f1sample\F1SampleApp\F1SampleApp\obj\Debug\netcoreapp3.1\Razor\Views\Season\SeasonDetail.cshtml.g.cs

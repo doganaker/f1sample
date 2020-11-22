@@ -47,7 +47,6 @@ const appendmanager = {
                     <td>` + element.points + `</td>
                     <td>` + element.wins + `</td>
                     <td>` + element.Constructors[0]?.name + `</td>
-                    <td>` + element.Constructors[0]?.nationality + `</td>
                     <td><a href='` + element.Constructors[0]?.url + `' target = '_blank'>` + element.Constructors[0]?.url + `</a></td>
                 </tr>`
                     
