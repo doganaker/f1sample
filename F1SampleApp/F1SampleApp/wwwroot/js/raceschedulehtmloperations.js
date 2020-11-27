@@ -33,8 +33,7 @@ const appendmanager = {
                     <td>` + element.date + `</td>
                     <td>` + element.Circuit.circuitName + `</td>
                     <td>` + element.Circuit.Location.country + `</td>
-                    <td>` + element.url + `</td>
-               
+                    <td><a href=` + element.url + `target = '_blank'>` + element.url + `</a></td>
                 </tr>`
             )
         });
