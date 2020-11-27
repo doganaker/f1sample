@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cU6QoKQe5bKN5qQgd4KlGQuJrbLQLIppzXKbiAw6JB3uEK9dQr9eHTLHl9QjuycNqVBdaHf5HYcqtXCIrcRhzg==",
+  "dgSpecHash": "yUdWlgRlhybI9q26DLmbr3wLqGv++3kHMEGZr/cT6hRNZ8/3+g60ZzKSsEqxMH/gIQBQDjZShdpAM0DzgdRRCQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dogan\\OneDrive\\Masaüstü\\f1project\\F1SampleApp\\F1SampleApp\\F1SampleApp.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\dogan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.0\\microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\dogan\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\dogan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\dogan\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\dogan\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.4\\microsoft.visualstudio.web.codegeneration.3.1.4.nupkg.sha512",
     "C:\\Users\\dogan\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.4\\microsoft.visualstudio.web.codegeneration.contracts.3.1.4.nupkg.sha512",
     "C:\\Users\\dogan\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.4\\microsoft.visualstudio.web.codegeneration.core.3.1.4.nupkg.sha512",
